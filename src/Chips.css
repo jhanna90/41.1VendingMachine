@@ -1,0 +1,45 @@
+.Chips {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #36382E;
+    width: 20rem;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+.Chips-back a {
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+    color: #5BC3EB;
+
+}
+
+.Chips-back a:hover {
+    font-weight: bold;
+    color: #EDE6E3;
+}
+
+.Chips-back a.active {
+    font-weight: bold;
+    color: #EDE6E3;
+}
+
+h1 {
+    color: #5BC3EB;
+}
+
+h3 {
+    color: #5BC3EB;
+}
+
+.ChipsImg {
+    max-width: 100%;
+    height: auto;
+
+}

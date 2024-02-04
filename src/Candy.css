@@ -1,0 +1,46 @@
+.Candy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #36382E;
+    width: 20rem;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+.Candy-back a {
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+    color: #5BC3EB;
+
+}
+
+.Candy-back a:hover {
+    font-weight: bold;
+    color: #EDE6E3;
+}
+
+.Candy-back a.active {
+    font-weight: bold;
+    color: #EDE6E3;
+}
+
+.Candy h1 {
+    color: #5BC3EB;
+}
+
+.Candy h3 {
+    color: #5BC3EB;
+}
+
+.CandyImg {
+    max-width: 100%;
+    border-radius: 10px;
+    height: auto;
+
+}
